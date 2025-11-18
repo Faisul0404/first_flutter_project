@@ -1,4 +1,3 @@
-import 'package:first_app/styled_text.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -31,7 +30,8 @@ class GradientContainer extends StatelessWidget {
           end: Alignment.bottomRight,
         ),
       ),
-      child: Center(child: StyledText()),
+      // child: Center(child: StyledText()),
+      child: Image.asset('assets/images/dice-1.png', width: 200),
     );
   }
 }
